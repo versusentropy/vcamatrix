@@ -1,0 +1,9745 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ea550e37-bc20-4977-abb1-2439ed52c0c5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:TL074"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MySynthParts:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "MySynthParts_+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MySynthParts:-12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "MySynthParts_-12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MySynthParts:AS3364"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MySynthParts_AS3364"
+				(at 7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 20.32 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AS3364_1_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "Iin"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.0038)
+					(name "Vc1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Iout1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AS3364_2_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "Iin2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.0038)
+					(name "Vc2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Iout2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AS3364_3_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "Iin3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.0038)
+					(name "Vc3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Iout3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AS3364_4_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "Iin4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.0038)
+					(name "Vc4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Iout4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AS3364_5_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 5.0038)
+					(name "Vcc"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 5.0038)
+					(name "Vee"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Vref"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GNDREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "0..2V"
+		(exclude_from_sim no)
+		(at 74.422 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d9876c-9c1c-4e69-81e0-418a7b9b8156")
+	)
+	(text "Cut-off frequency\nfc = 132629.11924325Hz"
+		(exclude_from_sim no)
+		(at 35.56 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "794b692b-ac59-4434-9bed-77c7cd0865fd")
+	)
+	(text "0..2V"
+		(exclude_from_sim no)
+		(at 74.93 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e232c2-6fe9-4d26-a9f7-ce75343ccf7e")
+	)
+	(text "0..2V"
+		(exclude_from_sim no)
+		(at 229.87 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5baa815-5da4-4c9d-afc2-51e8a6edbd09")
+	)
+	(text "Cut-off frequency\nfc = 100097.44848547Hz\n\n"
+		(exclude_from_sim no)
+		(at 90.17 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6d415e9-65b2-4fc9-8008-128c417b0332")
+	)
+	(junction
+		(at 154.94 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13d99797-4849-438c-bc94-f9c141e1be82")
+	)
+	(junction
+		(at 66.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153ca486-f920-4821-99b8-9b91493038d2")
+	)
+	(junction
+		(at 43.18 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166efdef-9564-4b33-9ec2-e92077b90849")
+	)
+	(junction
+		(at 163.83 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e13b59-10ba-4907-aef3-db635cef4d94")
+	)
+	(junction
+		(at 53.34 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25eb7e1b-f456-4b94-8af9-b62d9290b0bd")
+	)
+	(junction
+		(at 55.88 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283f1860-8247-4273-9dee-1f9603aac4ce")
+	)
+	(junction
+		(at 102.87 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f605ca-3464-4528-8d19-4d89fcd9cfa0")
+	)
+	(junction
+		(at 92.71 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38fefaa0-339f-4727-9dce-cf13aa71588b")
+	)
+	(junction
+		(at 238.76 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40500164-d426-4917-b61f-e4eacc05c70e")
+	)
+	(junction
+		(at 191.77 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409934ca-e689-4248-a2ab-71023e2ac7be")
+	)
+	(junction
+		(at 83.82 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43293998-a296-4926-a579-7d26da8a3711")
+	)
+	(junction
+		(at 238.76 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f43fae-dec5-4a6d-8807-8532ee6596c5")
+	)
+	(junction
+		(at 181.61 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c99303f-ffc1-4ad9-aa26-af99f179c5f3")
+	)
+	(junction
+		(at 55.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532cb76e-16dc-4bd7-a491-c6b9f164cd1b")
+	)
+	(junction
+		(at 163.83 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3a2ec6-763d-4575-8793-0219421a1971")
+	)
+	(junction
+		(at 120.65 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7757e8-2acd-4ed3-9dc0-f5424fb7a2cd")
+	)
+	(junction
+		(at 110.49 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9b9715-1fbf-4008-978a-8bc6b930f72b")
+	)
+	(junction
+		(at 209.55 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e186e73-0960-4ec6-ae3a-c72ae9f7e417")
+	)
+	(junction
+		(at 191.77 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a75f90d-4836-4b1a-8f36-dac2526f3fbd")
+	)
+	(junction
+		(at 120.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8be866-44ba-4bb2-8897-3ceba4fb52e1")
+	)
+	(junction
+		(at 113.03 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8af5d450-6e0b-46c0-a0a5-2ab16b796e17")
+	)
+	(junction
+		(at 220.98 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e04a58-b1f5-410d-b205-6c1842e5100f")
+	)
+	(junction
+		(at 53.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96053ef0-f126-49fd-a02b-c7c2072caa54")
+	)
+	(junction
+		(at 38.1 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b296350-be44-417f-80dd-661c19a3b9c0")
+	)
+	(junction
+		(at 220.98 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf73cad-f56e-4845-a6b4-65ce6c4175bd")
+	)
+	(junction
+		(at 144.78 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0cdc333-73df-4221-8f04-fcd5fa5d94c7")
+	)
+	(junction
+		(at 181.61 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ceab36-82f0-49f5-a282-30eda94be00a")
+	)
+	(junction
+		(at 266.7 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29f56a7-18b5-490c-bb44-df74b5eb3aa1")
+	)
+	(junction
+		(at 266.7 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b08cabdc-c9aa-48ac-a66a-d16347ea992a")
+	)
+	(junction
+		(at 110.49 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28e8a60-8442-4bcc-b2c0-ff55d952b030")
+	)
+	(junction
+		(at 66.04 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf86609-929e-4079-950b-2d5bfdd6c5fb")
+	)
+	(junction
+		(at 248.92 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c39eaa31-fbbb-42a1-b814-b046d7c4cf3d")
+	)
+	(junction
+		(at 138.43 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d310b487-3773-4ce5-9942-b7018f993c77")
+	)
+	(junction
+		(at 138.43 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d576175f-db7f-4029-be57-35084768f47f")
+	)
+	(junction
+		(at 113.03 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd227766-8e8c-47c2-85b0-e4b50ecb5513")
+	)
+	(junction
+		(at 38.1 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e089cb23-1bca-414f-b800-249d99b5cb28")
+	)
+	(junction
+		(at 92.71 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3cf7a9c-0a4d-409f-8bf5-ba223a9af3c3")
+	)
+	(junction
+		(at 209.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51d2d96-0aa6-434b-92ff-e66e487b1f0d")
+	)
+	(junction
+		(at 248.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e833340f-3076-447e-9319-960bb1c39f93")
+	)
+	(junction
+		(at 154.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e965ae7a-31b5-4b18-83c1-1860a09fcae8")
+	)
+	(junction
+		(at 83.82 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea0edf99-dc98-4a03-a5c3-fc227dbd5d1e")
+	)
+	(wire
+		(pts
+			(xy 209.55 96.52) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c00486-372d-4193-8956-05469fe9c028")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021e1d66-9cf7-4c98-8d77-7c95d9430e00")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02895aea-3803-4b34-aaa6-c68c91c22fb6")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ffc0bb-61bd-4bcf-92b8-474057f1c181")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07778356-39af-4442-9449-35d4e014773d")
+	)
+	(wire
+		(pts
+			(xy 38.1 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ff2c8d-529f-46e1-aec2-e188f7a5be61")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4a4c56-4b32-420f-ac3b-577741b9d495")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 93.98 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fead19f-49f0-465c-bb2f-899622845535")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b59b13-ee49-421f-9c88-e20222c5a035")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 250.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14052b08-1222-4446-b6b4-b88f5dfa20a6")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f0eb4f-86a0-4560-bb60-ecfeeed1bc8a")
+	)
+	(wire
+		(pts
+			(xy 266.7 102.87) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184ae2b4-08f4-4808-b6fd-ac4ca15793dd")
+	)
+	(wire
+		(pts
+			(xy 43.18 156.21) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a29a1e-a8d2-4fa7-ae69-69b93f31cbf9")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1901ce6c-40c6-4f78-8786-cb2b9bfbe312")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7ba72b-0043-4499-9b08-4e244a0767ab")
+	)
+	(wire
+		(pts
+			(xy 233.68 41.91) (xy 238.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0a0f6a-2906-4530-95e4-6a72302b9d2f")
+	)
+	(wire
+		(pts
+			(xy 220.98 55.88) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2034081b-9210-4443-ac8b-e658dc370b74")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214876fb-2da0-41f3-9c75-7f605f347c42")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a86178-ebc1-44ed-9c10-015db7084534")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25122f3c-254b-4b1c-b1a9-334efb26f88d")
+	)
+	(wire
+		(pts
+			(xy 97.79 111.76) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2553e471-0f51-43d8-a550-e6b50a0d8ab1")
+	)
+	(wire
+		(pts
+			(xy 38.1 40.64) (xy 43.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277b6a29-6923-4c13-810a-86179647b5bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9968c7-e101-4f36-87ab-37cd88b7bc87")
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c15dbd2-6a50-41f1-afb2-df64bfe99bab")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cceae02-4017-42a8-b8e0-7fe6faf0bc85")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3151ecf3-568f-480a-8bdc-dedde854635c")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a2e4ea-d153-4b43-a923-75f98f06153d")
+	)
+	(wire
+		(pts
+			(xy 25.4 53.34) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a88580-0ce0-47ee-b0cb-0f2123e2685b")
+	)
+	(wire
+		(pts
+			(xy 266.7 97.79) (xy 266.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34269b42-08cf-4ef6-a8d2-92655e7029db")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a27f5e-6b40-49e9-82d7-72ec8b049ef2")
+	)
+	(wire
+		(pts
+			(xy 154.94 154.94) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37eaf897-4cbc-4c42-9af1-7a5fc1ceec4b")
+	)
+	(wire
+		(pts
+			(xy 38.1 53.34) (xy 38.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39308ce4-7d8b-4a13-9c27-1450da1ec367")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6d5423-293c-421b-b57a-972f3b15b042")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c041346-2342-41b1-9ae0-75701f1a16ed")
+	)
+	(wire
+		(pts
+			(xy 69.85 163.83) (xy 71.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d307ff7-14b4-4f30-9fc6-3812a274e780")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 138.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d226c4-132f-4459-a669-64522a920399")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c9da00-5c3a-48e1-a5d1-d0077386814a")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43161de2-4bad-47e3-b719-fe3b7aecf870")
+	)
+	(wire
+		(pts
+			(xy 64.77 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450646d0-7c26-4bbe-9ddf-75757216004a")
+	)
+	(wire
+		(pts
+			(xy 34.29 168.91) (xy 34.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c1fec9-2878-4337-a572-6eb9f30ad466")
+	)
+	(wire
+		(pts
+			(xy 92.71 46.99) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d69c52-0c61-4a63-86c5-f0cd79f38838")
+	)
+	(wire
+		(pts
+			(xy 66.04 96.52) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49de8b8f-fd06-4bfe-9a41-3466f076c1e9")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 226.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a590d19-33e2-4404-b4c4-94cd40104d2d")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab64e29-964f-40b2-bf58-c546b31cd3eb")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bac4407-01d4-491e-bae3-2090ed0125d3")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c20310b-3533-4658-9231-63a80f95598b")
+	)
+	(wire
+		(pts
+			(xy 53.34 172.72) (xy 53.34 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d427aa0-f095-41c9-a070-cc56b16b1fe9")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ebbd7-8bf6-447c-8db4-609c4ea230cf")
+	)
+	(wire
+		(pts
+			(xy 261.62 102.87) (xy 266.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ae0978-f88b-42d6-b622-c44198c81503")
+	)
+	(wire
+		(pts
+			(xy 154.94 171.45) (xy 144.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c9dcac-4bd7-4187-b176-519ff916fe15")
+	)
+	(wire
+		(pts
+			(xy 55.88 40.64) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58762bef-57c6-492e-94a6-668fe42a91b5")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 196.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbf87a2-dc03-439b-bf99-2cd2e1f4bb17")
+	)
+	(wire
+		(pts
+			(xy 250.19 116.84) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6075efe7-7711-4655-900f-6539e70284be")
+	)
+	(wire
+		(pts
+			(xy 113.03 171.45) (xy 102.87 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bb1dcd-60da-4d37-96fe-78d00a47df0e")
+	)
+	(wire
+		(pts
+			(xy 93.98 163.83) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6409e599-960e-45f6-82a6-9bbe0e1eeb92")
+	)
+	(wire
+		(pts
+			(xy 82.55 111.76) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68399630-85f2-4892-93e6-dc8268714107")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699aaa2a-bb68-4bb1-9f36-2ef461b1df9d")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a577aa-a112-4930-9108-abd6a44873e0")
+	)
+	(wire
+		(pts
+			(xy 113.03 172.72) (xy 113.03 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69abdc97-46db-4651-aa78-a895b46a82ee")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 220.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5d7351-fda2-4b86-9e10-de349c4e7935")
+	)
+	(wire
+		(pts
+			(xy 102.87 156.21) (xy 113.03 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8d5126-c3eb-4e9e-896b-ce75b6f32fff")
+	)
+	(wire
+		(pts
+			(xy 135.89 163.83) (xy 144.78 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdc64ce-ed50-4bc6-9153-463baecce632")
+	)
+	(wire
+		(pts
+			(xy 238.76 46.99) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5291e5-3702-4218-a1f4-4f19372dbaab")
+	)
+	(wire
+		(pts
+			(xy 113.03 154.94) (xy 113.03 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f32eca1-3f92-4b2a-a999-eeda616e0a80")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743e818c-4e38-4ddd-8652-8b2321e21e27")
+	)
+	(wire
+		(pts
+			(xy 83.82 96.52) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79302a40-be04-436d-8d39-696175ad22ef")
+	)
+	(wire
+		(pts
+			(xy 238.76 41.91) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c077a51-a2fd-4b57-8459-f7a742b56896")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cda0698-11bd-40a7-b046-e50c924d99cc")
+	)
+	(wire
+		(pts
+			(xy 38.1 53.34) (xy 39.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdbb589-a09a-4264-a54c-eb56fd287dbb")
+	)
+	(wire
+		(pts
+			(xy 92.71 46.99) (xy 97.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec3b54c-0cb3-4d8a-9ea9-a8277f74f31d")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 248.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb889a4-1eb1-4e57-a13c-28de5f425e3f")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fde2875-6653-4069-a892-de798b7697ae")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ac9f03-c3e4-4b6c-b42a-4d068a871d15")
+	)
+	(wire
+		(pts
+			(xy 261.62 97.79) (xy 266.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b50366-5330-48b5-a794-c489329696b1")
+	)
+	(wire
+		(pts
+			(xy 36.83 53.34) (xy 38.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841c9907-6b0a-4468-b3a4-498fb0372318")
+	)
+	(wire
+		(pts
+			(xy 69.85 55.88) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851e0386-aa67-494e-8b32-4c356ba2c96a")
+	)
+	(wire
+		(pts
+			(xy 43.18 163.83) (xy 45.72 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ebe4b2-f64c-47f9-ae61-2857a206a391")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b385bd-bf8e-4c53-a3ab-fba022a7bdcc")
+	)
+	(wire
+		(pts
+			(xy 38.1 45.72) (xy 43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3a8aa6-6152-4188-ab86-e904c32fd87a")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 267.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc72ce4-31a4-42bc-a79e-ee475d57b9f6")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 67.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eef7ede-2db8-45e4-8bab-50e28bd12e2a")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915835c4-b495-4553-9012-ee170242dfcd")
+	)
+	(wire
+		(pts
+			(xy 163.83 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940abb93-99c6-4c80-b8f4-7f34455192f5")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951a9045-530b-4bff-90f4-d6933079f22c")
+	)
+	(wire
+		(pts
+			(xy 163.83 63.5) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ce4622-6a4c-4cc3-af45-b0d0f50bc85b")
+	)
+	(wire
+		(pts
+			(xy 248.92 102.87) (xy 254 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ea380b-6e6e-4c71-b703-5baee338ff4f")
+	)
+	(wire
+		(pts
+			(xy 236.22 93.98) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b997b04-fbae-4834-a03b-031dcbd867a9")
+	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d54206d-1f85-47e6-971b-467cdff79759")
+	)
+	(wire
+		(pts
+			(xy 62.23 163.83) (xy 60.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e221221-40f9-4a1e-8765-ab51cf362129")
+	)
+	(wire
+		(pts
+			(xy 237.49 58.42) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef6e8a9-34d8-4510-81bc-f9c6d59307a7")
+	)
+	(wire
+		(pts
+			(xy 233.68 46.99) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f173208-6401-4cdd-8a7e-1e54c9c12dc6")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a155eac0-c833-4bed-b97d-1f5e65d354bc")
+	)
+	(wire
+		(pts
+			(xy 55.88 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16833c3-5e9f-416d-a2c8-3d2f64664c3a")
+	)
+	(wire
+		(pts
+			(xy 54.61 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dc7e75-0dc9-4e4b-bca6-dec7610ec5db")
+	)
+	(wire
+		(pts
+			(xy 191.77 119.38) (xy 191.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3611f4-8a78-4399-b6d4-1bebfaa10cde")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa58ede2-966d-423e-84a5-69cb74c2b1c0")
+	)
+	(wire
+		(pts
+			(xy 34.29 163.83) (xy 43.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab09df99-e6db-4cb8-9341-32b9fed1f00b")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab26358a-5538-4cdd-85bf-855cbc22e941")
+	)
+	(wire
+		(pts
+			(xy 208.28 38.1) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7a0473-213c-4afe-ba51-3f86bf32021c")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 97.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac80345f-59e7-4ded-a4c3-56831e1a1903")
+	)
+	(wire
+		(pts
+			(xy 154.94 172.72) (xy 154.94 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad262824-d435-4e94-ac48-0f00f0509e0c")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cffcc2-0634-455c-aad2-7d31dbe7d67e")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b373df2d-81ac-4285-b337-7ae4e372ed26")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b539c979-47b4-43d4-8ca0-f3bd6ecbf0b8")
+	)
+	(wire
+		(pts
+			(xy 53.34 109.22) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58672ac-0cd2-4863-9218-16b247ee9639")
+	)
+	(wire
+		(pts
+			(xy 204.47 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6909121-7e5b-4718-8bc4-b2b725b7d429")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f99580-8bb3-49b5-8090-4effd8c14740")
+	)
+	(wire
+		(pts
+			(xy 248.92 97.79) (xy 254 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a9e70c-8537-4081-ac74-8f9d6c466b7e")
+	)
+	(wire
+		(pts
+			(xy 176.53 40.64) (xy 181.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f7f8d1-90a3-49b7-90ce-4ed42f9389b2")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5a1e04-8ffa-44e5-8fb1-52c422e732d8")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be84ea6d-679d-4158-8e4c-cf7f8ebbd60d")
+	)
+	(wire
+		(pts
+			(xy 265.43 114.3) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf89cb99-54db-442e-a678-7cfa4cc662a1")
+	)
+	(wire
+		(pts
+			(xy 78.74 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0709811-7d90-437a-bf10-4c446f928097")
+	)
+	(wire
+		(pts
+			(xy 196.85 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24d8b5f-2fe9-424f-9582-cb3a064b2f65")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c689a66f-b11c-4ae1-b286-5175cdbd2711")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c696cac4-7d5e-4ced-a363-60311d98734f")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d248c1-3a60-47cd-ba0f-1abdfcd1cfdb")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8101bde-8592-41bb-8201-275bd279a640")
+	)
+	(wire
+		(pts
+			(xy 248.92 102.87) (xy 248.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b8581a-883d-48cd-92a1-8646f7ff393e")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e60b1d-4ef6-4a4b-8e67-b8e35cc2a1a2")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96bee49-211a-478f-aff6-aca1d59e729c")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabcb64c-4ad5-4c4a-bd4a-ff2e02b7c08f")
+	)
+	(wire
+		(pts
+			(xy 220.98 55.88) (xy 222.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc6783e-81ef-4066-9a4d-2759325c3763")
+	)
+	(wire
+		(pts
+			(xy 53.34 171.45) (xy 43.18 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfa7b5c-a0e0-4177-aa75-ed430e264cc0")
+	)
+	(wire
+		(pts
+			(xy 135.89 168.91) (xy 135.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef786cf-26d6-4c81-97a1-edc4f7a90f3d")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aa200a-1865-4ef7-9bf0-e865bbb4c49a")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.22) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2465e9c-54ee-45e9-8a62-e8bc24733762")
+	)
+	(wire
+		(pts
+			(xy 220.98 41.91) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d590efe6-8b8a-49ca-a2b8-1c8b75eb0589")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 38.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5feb56b-2183-43b7-8964-fb13a5f1be29")
+	)
+	(wire
+		(pts
+			(xy 191.77 114.3) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df66fd3c-5f0f-4c96-be9a-937f6206ebd8")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df74dcd2-47e7-470b-b8de-3d52f488efcb")
+	)
+	(wire
+		(pts
+			(xy 105.41 41.91) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9d1fa6-1b8b-4567-9c85-c14e28ca0364")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a03a73-829c-4f03-a5bf-cb8adbf0b991")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e397bea6-986a-43d7-86d5-4a2ea4d7a9d6")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b625d6-9276-4778-aa33-4c8345050db1")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54403c5-8edb-4662-a66b-ff1e376df33a")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea099956-3b09-4317-b3fa-d55708593382")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2e6830-c191-4144-93c8-4dbe41e34d01")
+	)
+	(wire
+		(pts
+			(xy 176.53 45.72) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20c280d-fe8d-4bcb-903b-faa489931f38")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49a8f2b-c37c-4dc8-bd45-9b8ddec2abc9")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.22) (xy 67.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49ac800-5f0f-4506-955c-909db167555e")
+	)
+	(wire
+		(pts
+			(xy 38.1 45.72) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1195f0-032e-494c-a254-2d23bb38c9b4")
+	)
+	(hierarchical_label "OutC"
+		(shape input)
+		(at 139.7 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c2f7a35-79c2-4d41-9f97-f20877922ebb")
+	)
+	(hierarchical_label "OutB"
+		(shape input)
+		(at 240.03 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5638e271-1fa5-4793-9e0b-d114c6a08bda")
+	)
+	(hierarchical_label "CvB"
+		(shape input)
+		(at 208.28 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bf5d58f-aa06-4e6a-bb37-525836333c88")
+	)
+	(hierarchical_label "CvA"
+		(shape input)
+		(at 81.28 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74a9529c-ce96-44ad-8885-d9bde452ad78")
+	)
+	(hierarchical_label "InA"
+		(shape input)
+		(at 25.4 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843ee4b7-6e39-45d0-a31c-dafa277a891c")
+	)
+	(hierarchical_label "InC"
+		(shape input)
+		(at 53.34 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b9e0b94-8e03-45aa-8859-6ad8df1f1df1")
+	)
+	(hierarchical_label "InB"
+		(shape input)
+		(at 151.13 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad7eab90-e53d-4f4f-b511-039f3307ba47")
+	)
+	(hierarchical_label "InD"
+		(shape input)
+		(at 179.07 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aeded3be-8c56-4150-94c3-b78424174a65")
+	)
+	(hierarchical_label "OutA"
+		(shape input)
+		(at 111.76 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c945bc93-4647-4470-a56b-1a6acf137504")
+	)
+	(hierarchical_label "CvD"
+		(shape input)
+		(at 236.22 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1603e5b-4b33-46ed-8827-260ae0698e93")
+	)
+	(hierarchical_label "OutD"
+		(shape input)
+		(at 267.97 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0b378bb-2dde-4d8c-b491-edd95ceea4b6")
+	)
+	(hierarchical_label "CvC"
+		(shape input)
+		(at 109.22 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edaf39f2-96ae-42d2-98c1-2cb10b7dfd12")
+	)
+	(symbol
+		(lib_id "MySynthParts:+12V")
+		(at 113.03 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08c16ac9-547a-418c-8dca-ff6585394b79")
+		(property "Reference" "#PWR01510"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 113.157 150.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0610662-6a5c-43bd-9997-f270cff58907")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 157.48 163.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1738a786-e7b4-4d6c-a831-19d06749fea7")
+		(property "Reference" "U1503"
+			(at 156.4132 162.6616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 156.4132 164.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 156.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 158.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4853e1b9-d1b5-4ac6-b487-ca4c36edb0d1")
+		)
+		(pin "2"
+			(uuid "9efbff0b-8fd4-4268-9c77-12801fe6f015")
+		)
+		(pin "3"
+			(uuid "0b1acc5e-d42a-4c00-9d9e-2c03d2a50989")
+		)
+		(pin "5"
+			(uuid "785b59cf-efb3-47a2-b9ac-a8b43d53f3d9")
+		)
+		(pin "6"
+			(uuid "0d4b7e7d-4ce9-4560-8133-fe654a04fb33")
+		)
+		(pin "7"
+			(uuid "a8e70a25-b546-48de-a5e5-37dc5514eebc")
+		)
+		(pin "10"
+			(uuid "68e0811c-ed89-4f50-8258-6943b3b5f1e0")
+		)
+		(pin "8"
+			(uuid "f2a212c8-35b5-4e68-83ec-7a40513fcc13")
+		)
+		(pin "9"
+			(uuid "e8760787-da98-461e-92cb-7032c72a5434")
+		)
+		(pin "12"
+			(uuid "04accc94-bd00-4e99-b2c8-b101a2d34a27")
+		)
+		(pin "13"
+			(uuid "ab6f4ff0-dff3-4e10-83b7-a8aabf59ee39")
+		)
+		(pin "14"
+			(uuid "46168d16-a953-4d6c-af33-e77418858998")
+		)
+		(pin "11"
+			(uuid "2ede1b8e-d0d3-4b37-a2ba-a15e397ef344")
+		)
+		(pin "4"
+			(uuid "54dc3638-8c3d-4ddf-83d0-11501036ec51")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1503")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4503")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3503")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2503")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 160.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17875fe3-da22-4b59-8490-f325d0332ce2")
+		(property "Reference" "C1510"
+			(at 99.949 158.8516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.949 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4972f7-0caa-4652-a79f-92f8efde0dd0")
+		)
+		(pin "2"
+			(uuid "f7ed3b28-ec95-4d2e-960e-7e86a6a0b1de")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ad4d09d-52ad-464a-93ad-ff26cd778e07")
+		(property "Reference" "R1501"
+			(at 46.99 35.3822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 46.99 37.6936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 46.99 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38b6a80a-6c4f-464b-b019-1bc002e262e8")
+		)
+		(pin "2"
+			(uuid "00cb8e19-2f96-41c5-bf79-212656e7eedd")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 93.98 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "246ce5a6-a26c-44f1-8ac9-e89581873cd5")
+		(property "Reference" "#PWR01513"
+			(at 93.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 94.107 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "066176d1-54f2-4983-8f2b-3a9572187906")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a29454e-06e5-4ff2-96c9-d6a7014348bf")
+		(property "Reference" "R1515"
+			(at 93.98 106.5022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 93.98 108.8136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 93.98 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588931533490675712"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 25V 47kΩ 62.5mW Thin Film Resistor ±0.1% ±50ppm/℃ 0402"
+			(at 93.98 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358418"
+			(at 93.98 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f970f668-f14c-4835-bf81-c65d28ee0afa")
+		)
+		(pin "2"
+			(uuid "0d188ab7-d4c3-4d38-b0af-5fd5226aa8c5")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 172.72 55.88 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3059e99a-97f2-40b6-8596-1134b243a6c9")
+		(property "Reference" "U1501"
+			(at 172.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f88f8c6-4938-4f1a-be09-cdf9065aa86f")
+		)
+		(pin "2"
+			(uuid "06a9fd9d-f751-4f68-beb8-b2f720a22e15")
+		)
+		(pin "3"
+			(uuid "2e933294-0d6a-4ecd-a3ba-14c4c8150a33")
+		)
+		(pin "5"
+			(uuid "4dd8efae-f8d0-4f0a-8d20-983abf3cd593")
+		)
+		(pin "6"
+			(uuid "b9ee1ec6-2252-4709-a3b3-6d5c15a290a6")
+		)
+		(pin "7"
+			(uuid "e32a643e-2788-4a06-9870-3e039f094600")
+		)
+		(pin "10"
+			(uuid "bd632342-913b-4c37-8ff8-1fe301a5076d")
+		)
+		(pin "8"
+			(uuid "f8c76afb-ec34-4141-915f-d3a6f3711355")
+		)
+		(pin "9"
+			(uuid "50dc92f6-1a6d-4365-a161-346c06da92fe")
+		)
+		(pin "12"
+			(uuid "d54181f3-9946-4da3-896a-8ba2b9d95ff1")
+		)
+		(pin "13"
+			(uuid "2b873112-a7cd-456c-8909-f8392c07ca2e")
+		)
+		(pin "14"
+			(uuid "86e843af-633b-43e0-ac5a-9d853165c40e")
+		)
+		(pin "11"
+			(uuid "d849d292-1d00-47af-8aaf-62a5fe221a3c")
+		)
+		(pin "4"
+			(uuid "a1b893b3-3fa4-4f7b-a190-a6d0327e9bb5")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1501")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4501")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3501")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2501")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 160.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30e60fb9-d7c3-4e50-952c-c07e35147aba")
+		(property "Reference" "C1511"
+			(at 141.859 158.8516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 141.859 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 145.7452 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7490029a-30ed-42f3-bc42-375da6c70ac0")
+		)
+		(pin "2"
+			(uuid "bdf71c93-542a-4476-ab07-951abb973fc8")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2511")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 160.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "317d2a65-88db-4915-89fc-9b74fa6e5e64")
+		(property "Reference" "C1509"
+			(at 40.259 158.8516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 40.259 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 44.1452 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ff0656-ddd1-46fc-bbc8-6e36b21a0578")
+		)
+		(pin "2"
+			(uuid "c7e445ab-0bc5-4dd6-9daa-c2fe1722ba86")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "328c8e04-af3c-4eeb-851d-dfec39ba13b7")
+		(property "Reference" "C1515"
+			(at 141.859 166.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 141.859 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 145.7452 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e80354-1831-4020-a8d3-394a3a82bda6")
+		)
+		(pin "2"
+			(uuid "77dd117a-ab5a-455a-8a05-1d8a7a087f68")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 74.93 111.76 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33e1aba9-e3f1-460e-80f2-d70220b59732")
+		(property "Reference" "U1503"
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51ecd3d7-838e-4637-95d6-74a0019d7265")
+		)
+		(pin "2"
+			(uuid "9d93aa57-8700-4c11-ad42-e3c5bfe7f997")
+		)
+		(pin "3"
+			(uuid "da7835dc-a2eb-4b48-8b51-c7e787312a20")
+		)
+		(pin "5"
+			(uuid "3399ab1d-b522-4bd1-b39f-d68305176b34")
+		)
+		(pin "6"
+			(uuid "b1319a2b-f1c9-4438-8be5-0852bf57103a")
+		)
+		(pin "7"
+			(uuid "5b3e3b0b-8c4f-4fa5-b846-7138b4b03d17")
+		)
+		(pin "10"
+			(uuid "4a898a31-c049-4524-8d96-7122c49590fe")
+		)
+		(pin "8"
+			(uuid "96ffe4fa-9bfd-4658-bc08-3ded45160861")
+		)
+		(pin "9"
+			(uuid "d606583c-eba0-4abc-874e-8336c0030391")
+		)
+		(pin "12"
+			(uuid "416d0394-4f82-49db-8ba8-57ab8c21fbfb")
+		)
+		(pin "13"
+			(uuid "81f34d8d-9f65-46ea-a2a4-f66c97866970")
+		)
+		(pin "14"
+			(uuid "469cf349-82ef-47b9-9b89-a4707bf5f74f")
+		)
+		(pin "11"
+			(uuid "9450f325-0c25-4cc3-8714-575f5b694fa0")
+		)
+		(pin "4"
+			(uuid "e03d6e16-81dc-42dc-95c4-0215045cd404")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1503")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4503")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3503")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2503")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 38.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c08a8dc-cb2a-401d-9bcc-5b2c6870ec4d")
+		(property "Reference" "#PWR01501"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 38.227 67.8942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb2a54fb-5e1e-4ee1-a74e-d6a2abf55d80")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40147430-75f3-4901-978e-fbb941026134")
+		(property "Reference" "C1507"
+			(at 134.62 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30p"
+			(at 127 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 125.73 101.9048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707229178040320"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" " 30pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC "
+			(at 129.54 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
+			(at 129.54 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "749d6c0d-beaf-459f-aebf-b9b2a0ea6db2")
+		)
+		(pin "2"
+			(uuid "b4b424a7-79b6-4937-b699-c7dcf701375e")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 135.89 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42f96e0e-cf21-4e24-b379-2800e9d86bde")
+		(property "Reference" "#PWR01514"
+			(at 135.89 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 136.017 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d31a9f5-f390-4dc9-98c0-95539c2960c4")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 163.83 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "442545a2-72ff-41c0-aa0b-a97b9106ee1b")
+		(property "Reference" "#PWR01502"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 163.957 67.8942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "092ad89d-ff09-4480-a31e-1b3cdc8cd35a")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:AS3364")
+		(at 106.68 111.76 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "472c480b-bc60-494f-9e19-b2c8dbe3c1a3")
+		(property "Reference" "U1502"
+			(at 109.22 121.0818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3364"
+			(at 109.22 118.7704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3364.pdf"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900006840"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "461d6eda-e7f3-4bf7-a9a0-43845a0b56c0")
+		)
+		(pin "3"
+			(uuid "9dd88bfb-bb43-42ea-b8df-b5b65fdb811a")
+		)
+		(pin "4"
+			(uuid "0154349f-ccb2-4338-b3df-cba6a4d05d2f")
+		)
+		(pin "5"
+			(uuid "e7ab733f-bba9-4943-a5cf-a96957cc9fc5")
+		)
+		(pin "6"
+			(uuid "f6ac021b-b671-4490-890d-37eb6cc350e5")
+		)
+		(pin "7"
+			(uuid "360d6f14-62ae-4f86-9c22-bc7f585a54bf")
+		)
+		(pin "10"
+			(uuid "30d3fae9-5e1e-4d32-925d-806c536eca27")
+		)
+		(pin "11"
+			(uuid "d68d9c35-2c24-4083-8778-99d54ddd4668")
+		)
+		(pin "12"
+			(uuid "27883cce-0c22-4cef-af69-cfbdcb14d832")
+		)
+		(pin "13"
+			(uuid "33cf6681-f4a2-456f-903f-42161e47bf98")
+		)
+		(pin "14"
+			(uuid "7f921ef1-0d85-45e4-b153-b6b0e1f81bde")
+		)
+		(pin "15"
+			(uuid "f56e339e-e675-4edd-9a41-39b56ad9d829")
+		)
+		(pin "1"
+			(uuid "d4368519-2ccc-4abf-9564-fa8e3660152c")
+		)
+		(pin "16"
+			(uuid "55c1cf12-229f-4536-a8a9-31e5656bc6b5")
+		)
+		(pin "8"
+			(uuid "f825f5e3-5f53-4dba-bc83-7de8c28140a1")
+		)
+		(pin "9"
+			(uuid "6084a9fa-6cf3-467e-bb9c-069bb0033073")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1502")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4502")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3502")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2502")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac15387-ff50-4006-aa82-d0bd4b5254b7")
+		(property "Reference" "R1503"
+			(at 101.6 36.6522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "53k"
+			(at 101.6 38.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103121510_Resistor-Today-PTFR0402B49K9P9_C2692736.pdf"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ "
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C852836"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3aaa99-3238-4f99-aa68-1f8f5489d3e1")
+		)
+		(pin "2"
+			(uuid "38a51f8d-a97b-4028-a776-09055b738c42")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 250.19 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f029d93-5584-452a-a6fe-6cd97298184d")
+		(property "Reference" "#PWR01508"
+			(at 250.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 250.317 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "442ce24c-287e-4d40-b660-cbe0b0be2c75")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52dc4c3d-77e5-45ef-8966-b7c2a8e7f76e")
+		(property "Reference" "R1502"
+			(at 172.72 35.3822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 172.72 37.6936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 172.72 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 172.72 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2532354e-8749-450d-950b-21e1a6005c6c")
+		)
+		(pin "2"
+			(uuid "95c1a41b-b5fb-434d-ba76-14249698d0a5")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53380648-16ad-4940-a511-fbb66419d311")
+		(property "Reference" "C1505"
+			(at 80.01 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 72.39 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 71.12 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707283237879808"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "12pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 74.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 74.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683250dd-0c00-49cb-b962-3e0c1843dbde")
+		)
+		(pin "2"
+			(uuid "51459f23-169b-4798-bbca-ca98010bbbee")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 191.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5605a08f-7de5-4cff-a875-92588943a3b7")
+		(property "Reference" "#PWR01506"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 191.897 123.7742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1257be0-2394-4f08-8984-f580162b15f9")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "572e0949-5ea1-454e-81ec-79aa0543c09a")
+		(property "Reference" "R1508"
+			(at 193.04 50.6222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 193.04 52.9336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588931533490675712"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 25V 47kΩ 62.5mW Thin Film Resistor ±0.1% ±50ppm/℃ 0402"
+			(at 193.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358418"
+			(at 193.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c611e961-9070-4b49-8985-e91d8c74c878")
+		)
+		(pin "2"
+			(uuid "42c2e65e-11f5-41ec-bcae-0824dc68199d")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:AS3364")
+		(at 50.8 163.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5992ccbb-45bb-45e6-8040-9c5f7636e2f3")
+		(property "Reference" "U1502"
+			(at 54.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS3364"
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3364.pdf"
+			(at 53.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900006840"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24cc519e-a5dc-499e-a0b2-93e5e906ae41")
+		)
+		(pin "3"
+			(uuid "466e4e80-eada-4acc-9071-ae9a6bdc93df")
+		)
+		(pin "4"
+			(uuid "8d333696-71ae-44b7-8a1d-eecd07c01bc1")
+		)
+		(pin "5"
+			(uuid "2aceaf9a-d12d-4f3e-a78d-25a3905c9268")
+		)
+		(pin "6"
+			(uuid "36938e72-0eef-4800-a96b-b24fc2828b76")
+		)
+		(pin "7"
+			(uuid "edece1af-0dab-4537-89ff-c7dceee2add7")
+		)
+		(pin "10"
+			(uuid "56820538-b2f1-4513-a295-f253f33c9534")
+		)
+		(pin "11"
+			(uuid "5e202f77-2b07-4a34-bc70-d0f711bd5c87")
+		)
+		(pin "12"
+			(uuid "0e8f3813-90a2-450b-b5f7-f0813e668eba")
+		)
+		(pin "13"
+			(uuid "23d6f05e-17ec-440b-82ff-dbc99d714d4d")
+		)
+		(pin "14"
+			(uuid "aaa4ea31-2a7c-400c-9c68-b2be96350bcd")
+		)
+		(pin "15"
+			(uuid "eebce53c-e14a-42f6-b8f3-01835759ac76")
+		)
+		(pin "1"
+			(uuid "cc41d652-1254-4b05-b758-9b7d192db6fe")
+		)
+		(pin "16"
+			(uuid "8dbf51b4-aec0-45e7-88cf-7bc98b6008c6")
+		)
+		(pin "8"
+			(uuid "73063abf-5cdf-4b78-978f-034b048a73fd")
+		)
+		(pin "9"
+			(uuid "030020e5-b962-49fd-bf58-4a926f8aa8bb")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1502")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4502")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3502")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2502")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 257.81 114.3 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a380b35-9745-437f-8457-0f67dcd910fe")
+		(property "Reference" "U1503"
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 257.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 257.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f39b1b4-0c0a-4cfe-9306-49a1c6df3c7e")
+		)
+		(pin "2"
+			(uuid "af389992-d3f2-4ce1-91fb-6be7b24fa2be")
+		)
+		(pin "3"
+			(uuid "683be3a9-305e-4fb2-9acc-c0066c1972fe")
+		)
+		(pin "5"
+			(uuid "07b539f8-1d2f-4ef8-976f-b6aa75b16622")
+		)
+		(pin "6"
+			(uuid "7eac2c09-f9f6-42ee-92b3-1f8fd13e742b")
+		)
+		(pin "7"
+			(uuid "d3cfdb1d-7f4c-4f59-8319-e4df8fdf7f51")
+		)
+		(pin "10"
+			(uuid "dbe3ee31-4d0c-4522-8c05-ee0e4d3522f6")
+		)
+		(pin "8"
+			(uuid "bf695577-6caf-4da8-9725-62c35004da92")
+		)
+		(pin "9"
+			(uuid "91c216eb-3327-49b3-a66b-ba80be7e7885")
+		)
+		(pin "12"
+			(uuid "b253d8b1-5f7e-4e99-ae23-e23be3cd1c0f")
+		)
+		(pin "13"
+			(uuid "d31ff06d-e6a7-461d-a1fa-e881faa3eb6e")
+		)
+		(pin "14"
+			(uuid "f778d982-ccad-48c8-9667-e6b416cd1dba")
+		)
+		(pin "11"
+			(uuid "457df6e2-c9e5-491a-b1c9-e2065db989d7")
+		)
+		(pin "4"
+			(uuid "943fc223-7620-454f-9380-8687e5b20c86")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1503")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4503")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3503")
+					(unit 4)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2503")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:AS3364")
+		(at 205.74 55.88 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5aeb8f3d-79f5-474e-a2f9-70aecb6630d1")
+		(property "Reference" "U1502"
+			(at 208.28 65.2018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3364"
+			(at 208.28 62.8904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3364.pdf"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900006840"
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1ff54c9-bb21-459f-be48-9053c2a9b9be")
+		)
+		(pin "3"
+			(uuid "7c10664e-6996-4dff-ae5f-9838915bfb94")
+		)
+		(pin "4"
+			(uuid "03e4706c-ef7a-48db-98e6-863882c777c5")
+		)
+		(pin "5"
+			(uuid "102d7bdd-865c-47b0-aa3e-696438457c94")
+		)
+		(pin "6"
+			(uuid "2f7e12df-e8a9-46ec-b2ef-f3583c99dd4e")
+		)
+		(pin "7"
+			(uuid "d494f1b9-5cbb-43bc-810b-38a506041363")
+		)
+		(pin "10"
+			(uuid "7cd1846e-1b98-4970-a26c-5c77e95fa0ae")
+		)
+		(pin "11"
+			(uuid "f12790af-401e-4365-8d9c-317d4ae3089d")
+		)
+		(pin "12"
+			(uuid "01872bf9-939b-42b0-9491-079e64eb642d")
+		)
+		(pin "13"
+			(uuid "f9034eb5-af21-469a-9f5c-97a44a202da0")
+		)
+		(pin "14"
+			(uuid "50297f4e-577e-4f5e-95eb-ee3971b53304")
+		)
+		(pin "15"
+			(uuid "28660a38-2987-446b-be7b-1dab34af9877")
+		)
+		(pin "1"
+			(uuid "2649e3e8-0730-4d5e-9ad6-be949108976d")
+		)
+		(pin "16"
+			(uuid "0ba1d643-82ce-4329-b04e-0a8f454546d4")
+		)
+		(pin "8"
+			(uuid "bc79173a-a64d-4648-8f32-1579d4de8eec")
+		)
+		(pin "9"
+			(uuid "19c27998-ae42-4a91-a146-de91cfcc62e1")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1502")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4502")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3502")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2502")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e4ef1ba-a720-4237-bccb-37a41f09c990")
+		(property "Reference" "R1506"
+			(at 158.75 48.0822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 158.75 50.3936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 158.75 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 158.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 158.75 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 158.75 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f69cd8f3-3aef-422a-94fe-73da0b9fd586")
+		)
+		(pin "2"
+			(uuid "cfe0656c-f928-4a44-ab93-5b7a258f031e")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:+12V")
+		(at 53.34 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "616fef09-9d0f-47b1-b7d9-f195e5533d49")
+		(property "Reference" "#PWR01509"
+			(at 53.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 53.467 150.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e474acb-c660-47d9-896b-aa2a2d1d7c3a")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 101.6 58.42 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "642aaa5e-e605-47c1-a133-adc520e129cc")
+		(property "Reference" "U1501"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c68804-5e03-4c95-be7d-88ccd008401c")
+		)
+		(pin "2"
+			(uuid "38cbc002-e526-49f7-b03a-63642e9678e8")
+		)
+		(pin "3"
+			(uuid "d53e5ba7-c103-4a29-b24b-521410ff38b8")
+		)
+		(pin "5"
+			(uuid "4c3b2d16-73c5-4247-ab18-c7b6486b145e")
+		)
+		(pin "6"
+			(uuid "b56ae3e8-71ac-4c51-ae9f-7708d838f576")
+		)
+		(pin "7"
+			(uuid "e1ab8729-9d88-4f46-873c-6c9162bec497")
+		)
+		(pin "10"
+			(uuid "06833102-9ae8-49bb-8549-fc47ce615955")
+		)
+		(pin "8"
+			(uuid "b8f06170-2647-437d-8bcf-e0a15c843462")
+		)
+		(pin "9"
+			(uuid "9e437d37-aa04-42c1-8b12-523ad4b49d2b")
+		)
+		(pin "12"
+			(uuid "aa730b8a-408c-419a-94e2-0e20d1461ffe")
+		)
+		(pin "13"
+			(uuid "10c19c51-55a7-4276-b928-8de00804d663")
+		)
+		(pin "14"
+			(uuid "750eaaaf-bbc3-42d1-9c39-ac66c7ae94a9")
+		)
+		(pin "11"
+			(uuid "3cfceee2-2104-4009-a7d7-93821892ab79")
+		)
+		(pin "4"
+			(uuid "85eeb97a-687b-4a2a-b6a8-2740c63d2ade")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1501")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4501")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3501")
+					(unit 2)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2501")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 45.72 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65ece5bc-f420-4fe3-8034-8a9de61bc216")
+		(property "Reference" "C1502"
+			(at 177.8 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 170.18 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.91 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707283237879808"
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "12pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 172.72 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 172.72 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314122e8-8e2d-421c-889a-95b14bc0639f")
+		)
+		(pin "2"
+			(uuid "a93d66e3-55ab-480b-9549-63b51dae144e")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 34.29 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68917053-5564-4703-9253-5bd325684dac")
+		(property "Reference" "#PWR01512"
+			(at 34.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 34.417 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "799f74b9-0568-428c-a465-6c296a800c23")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 93.98 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0da05e-05c1-4a01-9a38-80e209b22487")
+		(property "Reference" "#PWR01503"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 94.107 70.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51830f66-18cf-4edb-b54e-530ef47f04e7")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d87855d-ef22-4f5b-8e13-e1370a038b7c")
+		(property "Reference" "R1504"
+			(at 229.87 36.6522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "53k"
+			(at 229.87 38.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.87 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103121510_Resistor-Today-PTFR0402B49K9P9_C2692736.pdf"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ "
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C852836"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4883d1d-3106-4158-9648-978de9cb6b7b")
+		)
+		(pin "2"
+			(uuid "71e1210d-1e4c-4f6f-83be-69ba6d19dbc0")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ded02b3-1f30-4005-a817-79b36c925805")
+		(property "Reference" "C1506"
+			(at 205.74 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 198.12 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 196.85 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707283237879808"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "12pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 200.66 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 200.66 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27c35bb-193e-4e03-b70a-09ece67b627e")
+		)
+		(pin "2"
+			(uuid "e2369c56-0be1-4d85-952e-845d6d2446b0")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3506")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "744f38af-9085-46b8-a1b1-8760567bc128")
+		(property "Reference" "R1505"
+			(at 33.02 48.0822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 33.02 50.3936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 33.02 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 33.02 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 33.02 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e8dde1-2911-45eb-b767-d346b485cc06")
+		)
+		(pin "2"
+			(uuid "1419bd54-3c20-41ef-b0a6-3e590006300b")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 121.92 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "746f5604-dfdc-49e0-8670-462e408d94c2")
+		(property "Reference" "#PWR01507"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 122.047 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5968e93d-1914-470b-8650-4698a3f7395b")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:AS3364")
+		(at 78.74 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789ddfa4-755c-47a0-a716-5e257062d73e")
+		(property "Reference" "U1502"
+			(at 81.28 65.2018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3364"
+			(at 81.28 62.8904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3364.pdf"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900006840"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3689f047-307f-48e1-8548-99c912f50634")
+		)
+		(pin "3"
+			(uuid "e4e86894-a9d5-4481-9234-1c53dddb418e")
+		)
+		(pin "4"
+			(uuid "56f69182-8f19-49f8-a2a9-efd0f22bafbb")
+		)
+		(pin "5"
+			(uuid "f21d1ae3-f556-4826-b244-801d86ceb372")
+		)
+		(pin "6"
+			(uuid "a68cf43b-b98a-4849-9bd2-01ea5ebc4232")
+		)
+		(pin "7"
+			(uuid "69b55f6e-6d1e-43fb-9258-ac938777c457")
+		)
+		(pin "10"
+			(uuid "2efccfc1-71cd-4477-8481-377820c0d4dd")
+		)
+		(pin "11"
+			(uuid "21c967b8-8587-4e0d-82ed-e7b50649cd82")
+		)
+		(pin "12"
+			(uuid "66d300cc-8af2-4800-8964-9d8300d0dbe0")
+		)
+		(pin "13"
+			(uuid "e8d5c740-0b0f-4dc4-b240-c7b8a9157396")
+		)
+		(pin "14"
+			(uuid "962509d7-d43a-4374-bab3-8941ed97c89d")
+		)
+		(pin "15"
+			(uuid "5290c76a-ca13-4b07-ab66-54151c82019b")
+		)
+		(pin "1"
+			(uuid "37337afa-74a2-47fd-8204-14ec4d495097")
+		)
+		(pin "16"
+			(uuid "188a0f92-892c-484d-aa74-a2c6ceb96088")
+		)
+		(pin "8"
+			(uuid "045b9a80-c839-46bd-9531-f03cb15cd853")
+		)
+		(pin "9"
+			(uuid "f6f3d7c6-1a4c-47f8-8a51-3b34b5ed5129")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3502")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7966633d-cc67-4060-9789-f960b96a8637")
+		(property "Reference" "R1511"
+			(at 129.54 92.5322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "53k"
+			(at 129.54 94.8436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103121510_Resistor-Today-PTFR0402B49K9P9_C2692736.pdf"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ "
+			(at 129.54 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C852836"
+			(at 129.54 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ab8e32-93a8-4088-afb9-667fcfd90547")
+		)
+		(pin "2"
+			(uuid "342ef066-e26f-40d7-9b06-991f3f6073e8")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2511")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:+12V")
+		(at 154.94 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a08fb8f-ea32-4f43-88d0-193c883726a1")
+		(property "Reference" "#PWR01511"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 155.067 150.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9704e499-9c37-4d8c-8ec5-773ee03722cb")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03511")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:-12V")
+		(at 113.03 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd56942-760a-40dc-91be-b24e068e2c47")
+		(property "Reference" "#PWR01517"
+			(at 113.03 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 112.903 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b41dc77-89f8-44e6-a9c8-3e967a96a43a")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "802ed9fb-dd12-44f1-b72e-ed099455a10f")
+		(property "Reference" "R1513"
+			(at 60.96 103.9622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 60.96 106.2736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 60.96 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 60.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 60.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be49e4e2-6d35-4f0f-a58c-99bfd9d4b1c9")
+		)
+		(pin "2"
+			(uuid "9aaf5c92-cabe-41ab-a047-c704c51ae7c6")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "809f3026-319e-46f1-9b7b-4b087a8f5ea8")
+		(property "Reference" "R1512"
+			(at 257.81 92.5322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "53k"
+			(at 257.81 94.8436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103121510_Resistor-Today-PTFR0402B49K9P9_C2692736.pdf"
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ "
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C852836"
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8394801f-3aa8-453b-9d44-e8e3d9bdd4d9")
+		)
+		(pin "2"
+			(uuid "99c5a09a-a353-4653-8579-a0ec28a53816")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2512")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:-12V")
+		(at 154.94 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84275bdd-4215-43e3-af07-570c166d219b")
+		(property "Reference" "#PWR01518"
+			(at 154.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 154.813 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb381fb7-6a89-4f7a-aa61-26aac691ee8f")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01518")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04518")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03518")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84761ea3-1fa7-4c26-82fb-d7a1e2f8061e")
+		(property "Reference" "R1514"
+			(at 186.69 103.9622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 186.69 106.2736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 186.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 186.69 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 186.69 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f51e67f-f03b-4d1f-8589-652a5c01659f")
+		)
+		(pin "2"
+			(uuid "5967e2a6-558b-41aa-86ad-208f683e2c04")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f234e7b-d014-4d7c-8a9e-dddcca66ecf2")
+		(property "Reference" "R1516"
+			(at 220.98 106.5022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 220.98 108.8136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 220.98 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588931533490675712"
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 25V 47kΩ 62.5mW Thin Film Resistor ±0.1% ±50ppm/℃ 0402"
+			(at 220.98 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358418"
+			(at 220.98 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b5d682-1b5e-439c-9a47-6d3baeaac8f0")
+		)
+		(pin "2"
+			(uuid "c7b12b80-05d1-44cb-859f-51956fe04c63")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2516")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 45.72 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f2a5ad6-47ff-42e5-b5cb-37500a5dbd1f")
+		(property "Reference" "C1501"
+			(at 52.07 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 44.45 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707283237879808"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "12pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 46.99 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 46.99 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659d2874-ea89-4f58-b053-97563a18148c")
+		)
+		(pin "2"
+			(uuid "bd2d44b2-3332-4ff1-8fe2-31e1c4ee2971")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 115.57 163.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a1e1d5e-dcb5-458b-864e-ec771dab70a0")
+		(property "Reference" "U1501"
+			(at 114.5032 162.6616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 114.5032 164.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dd09232-d46a-4f03-b3f7-2dc0b03712d7")
+		)
+		(pin "2"
+			(uuid "31324776-e483-431f-8edc-10dd26dbec57")
+		)
+		(pin "3"
+			(uuid "c88a97f3-9024-42bd-9c2d-e88ca25091cb")
+		)
+		(pin "5"
+			(uuid "ab4b6dcc-9088-46f7-b33e-e1cf77e21e81")
+		)
+		(pin "6"
+			(uuid "a3d3cec3-c880-4b52-bb7f-b8d96396e095")
+		)
+		(pin "7"
+			(uuid "201d1adb-aa4e-48b7-87b9-4635f1378e06")
+		)
+		(pin "10"
+			(uuid "3dee8ca5-e7df-43ab-ac5c-ef9e09ea81a6")
+		)
+		(pin "8"
+			(uuid "03e18850-33fa-46e5-a00f-9c5f0d724082")
+		)
+		(pin "9"
+			(uuid "d1294aca-9f7d-4034-83de-8bea879274d8")
+		)
+		(pin "12"
+			(uuid "a76fc11f-77d3-47fb-9efd-47a6b045b7a5")
+		)
+		(pin "13"
+			(uuid "561b6ab3-c7ec-486d-94e6-16b692dff7b9")
+		)
+		(pin "14"
+			(uuid "908c5f3a-9925-487f-bc93-b407e5612eac")
+		)
+		(pin "11"
+			(uuid "55284b47-a3fa-487b-9384-5b485c9841bd")
+		)
+		(pin "4"
+			(uuid "7681542a-22a1-46a7-9a96-5b93d210f134")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1501")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4501")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3501")
+					(unit 5)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2501")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 222.25 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b657cfe-fdc0-4c92-8be2-45a915338432")
+		(property "Reference" "#PWR01504"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 222.377 70.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dd27742-9d60-40e0-893f-609cf3feb017")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b13ec6aa-ced8-41c3-a177-f5f5e220aa52")
+		(property "Reference" "R1510"
+			(at 200.66 91.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 200.66 93.5736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 200.66 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 200.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 200.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3ce6af-6581-49de-9e44-109535b22e0f")
+		)
+		(pin "2"
+			(uuid "5e0cac49-a214-4ecf-93b7-08dfd06a7b12")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3510")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c87088-0d5b-4c53-8580-09f2a70726e7")
+		(property "Reference" "R1509"
+			(at 74.93 91.2622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 74.93 93.5736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893733681582080"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100kΩ 25V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402"
+			(at 74.93 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C317929"
+			(at 74.93 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39028f11-a70b-4e82-9ef8-62c8b55c72ab")
+		)
+		(pin "2"
+			(uuid "be3741c0-b1ca-4d4d-8a70-feafd1be05fa")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3509")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 229.87 58.42 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9db0ab9-80ec-40bb-bb0a-02096ac851fd")
+		(property "Reference" "U1501"
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3fceeb-9ed0-4b21-a86f-9dc4226bc841")
+		)
+		(pin "2"
+			(uuid "1155ce3c-dfff-4856-8b3f-579935a83936")
+		)
+		(pin "3"
+			(uuid "c02720f5-1993-4a6b-8889-eb3020cc9b03")
+		)
+		(pin "5"
+			(uuid "e47a5bc3-b472-45f3-856c-76dad4785038")
+		)
+		(pin "6"
+			(uuid "2043c6cb-6c3d-4652-88b5-8765069f97c8")
+		)
+		(pin "7"
+			(uuid "dd45ddb0-38e3-401c-8af0-e9ada039cd81")
+		)
+		(pin "10"
+			(uuid "8465be37-7e7d-463f-ba6f-7da7dace7b24")
+		)
+		(pin "8"
+			(uuid "1a805585-8c70-495c-8270-50068722e2fc")
+		)
+		(pin "9"
+			(uuid "0f427b71-0dc7-4edf-9d6c-287732a976c1")
+		)
+		(pin "12"
+			(uuid "150683ab-2fc2-422e-a986-ad89baa22753")
+		)
+		(pin "13"
+			(uuid "90f22412-cf32-4bc9-af68-919de1c5b931")
+		)
+		(pin "14"
+			(uuid "3ed4af32-0dff-4e02-aacb-42a86e527c2c")
+		)
+		(pin "11"
+			(uuid "3b9b3eaf-9701-45bf-b729-70d90ef62ee6")
+		)
+		(pin "4"
+			(uuid "71a09fa2-44bd-4681-82df-39eb0aafdfd2")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1501")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4501")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3501")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2501")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 200.66 111.76 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bab576e7-d133-47b1-bf40-e52d778bf69f")
+		(property "Reference" "U1503"
+			(at 200.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28c0bbc-f293-4c19-bb42-1db90efa2857")
+		)
+		(pin "2"
+			(uuid "42cfd2b9-8548-47e9-91b9-32b3940e0466")
+		)
+		(pin "3"
+			(uuid "cecf2a2d-b787-48c7-916b-078541dbee15")
+		)
+		(pin "5"
+			(uuid "e5361307-ad2d-41b4-a621-58d50bea8919")
+		)
+		(pin "6"
+			(uuid "c20c0e9a-e8d8-44b7-adee-b85cec47384f")
+		)
+		(pin "7"
+			(uuid "497205da-f67f-432f-ba3c-de95e35dae93")
+		)
+		(pin "10"
+			(uuid "6f6f1b65-7c13-4542-802c-a6f9d75f7a16")
+		)
+		(pin "8"
+			(uuid "3648b6d0-e2ce-42bc-8144-0fa19d21800e")
+		)
+		(pin "9"
+			(uuid "02616e72-d562-46d6-81a0-bc3eacb0ed3a")
+		)
+		(pin "12"
+			(uuid "8c3822de-9f77-4897-b842-60e1ab68f430")
+		)
+		(pin "13"
+			(uuid "5ebdc7ae-3592-4f90-9c0a-54bc856ceeb6")
+		)
+		(pin "14"
+			(uuid "03bbe628-36d5-4828-b813-689f8393510b")
+		)
+		(pin "11"
+			(uuid "e2ce6074-859f-4023-b4e1-e156ee38e7dc")
+		)
+		(pin "4"
+			(uuid "e672f0c3-8845-4f54-a2f8-8010ade23e10")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1503")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4503")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3503")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2503")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf76eace-0ab2-4dd1-9e8c-1a48b6c4cab4")
+		(property "Reference" "R1517"
+			(at 66.04 158.5722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 66.04 160.8836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705907481001984"
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 66.04 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 66.04 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64d6ba9d-8e31-45f8-9ab0-a041509bf62c")
+		)
+		(pin "2"
+			(uuid "dbf5921b-9e4c-4532-8923-b3063844b2cb")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3517")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2517")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1b22bd9-cd37-4f9a-8cb4-6c752b7bb722")
+		(property "Reference" "C1512"
+			(at 40.259 166.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 40.259 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 44.1452 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c696636-6911-4c77-a6da-bec2e6e8cb33")
+		)
+		(pin "2"
+			(uuid "3ee2b8f2-1e40-4245-8ada-d53b1ecbc712")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3512")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2512")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:-12V")
+		(at 53.34 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d6b5d5-9924-49f9-a7a1-ea6cf4086e20")
+		(property "Reference" "#PWR01515"
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 53.213 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1230754f-baf7-4c1f-bc7e-6d2340244154")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03515")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 66.04 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d32ef6e1-5ef8-49df-821b-9d121a619326")
+		(property "Reference" "#PWR01505"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 66.167 123.7742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1d84059-ad4c-4cfd-bfed-1ca88e61b7d2")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03505")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 46.99 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7e1d047-df84-4981-b6ac-8602042aa1fa")
+		(property "Reference" "C1504"
+			(at 234.95 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30p"
+			(at 227.33 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 226.06 46.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707229178040320"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" " 30pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC "
+			(at 229.87 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
+			(at 229.87 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60e75f72-ee8c-4208-9eef-e935d7684d7f")
+		)
+		(pin "2"
+			(uuid "5667316e-619b-432d-8f9c-290de9284874")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3504")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 129.54 114.3 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd93ec60-b84b-4853-b486-c06d6c1e5026")
+		(property "Reference" "U1503"
+			(at 129.54 123.6218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 129.54 121.3104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8219a9f4-5a7d-48c5-a876-38b1e3529397")
+		)
+		(pin "2"
+			(uuid "661ad4d0-eb15-4e3e-9473-3af3a4ef62c7")
+		)
+		(pin "3"
+			(uuid "aea25054-0a60-4218-80dc-bbb23c3e7b5f")
+		)
+		(pin "5"
+			(uuid "f1106354-c0e3-4d70-bd8b-13d4b891ef05")
+		)
+		(pin "6"
+			(uuid "28decdfe-65fc-4d7b-9f66-312bfe6667ae")
+		)
+		(pin "7"
+			(uuid "281754c1-4835-4097-ac68-66d2d4d3c8f0")
+		)
+		(pin "10"
+			(uuid "1d762909-c247-4e74-9e98-3936d3571eb2")
+		)
+		(pin "8"
+			(uuid "f810769c-4ad6-4c1a-8537-d47d2095ac91")
+		)
+		(pin "9"
+			(uuid "faa55d80-0a88-45ab-8b83-4d9de5b480c7")
+		)
+		(pin "12"
+			(uuid "ab7b51d8-6218-4765-a420-aba6cb107ec9")
+		)
+		(pin "13"
+			(uuid "87b064f2-ea45-4cf3-a1f1-719c35c4eefb")
+		)
+		(pin "14"
+			(uuid "4c31a1e3-0d12-4527-b51d-d080b80a5aad")
+		)
+		(pin "11"
+			(uuid "a5d3b097-3bb5-42e0-bcf7-9974cc7387e9")
+		)
+		(pin "4"
+			(uuid "20f9bb44-5450-4b4c-a0da-efe251718bc5")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 46.99 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddfd4321-6127-4cfd-9cc4-c5114e4efb80")
+		(property "Reference" "U1501"
+			(at 46.99 65.2018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679IPWR"
+			(at 46.99 62.8904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1679.pdf?ts=1689529023552"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2057264"
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Desc" " -40℃~+85℃ 0.0001% 2.25V~18V 2.5mA 4-Channel TSSOP-14 Audio Amplifiers ROHS "
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e344053-0437-4ead-a171-ac377798d6df")
+		)
+		(pin "2"
+			(uuid "3d8838ae-a0d9-450a-8312-c7e9e0ed314a")
+		)
+		(pin "3"
+			(uuid "3463e7ad-39f2-49cf-bb77-f97fba57a2de")
+		)
+		(pin "5"
+			(uuid "d17e80fb-a1bd-49b9-943c-429786df4acf")
+		)
+		(pin "6"
+			(uuid "f535c0fa-c08f-449e-9fd6-cd9dfd0b1b6b")
+		)
+		(pin "7"
+			(uuid "f3202ede-a982-4d59-ac8a-7cf79d804b40")
+		)
+		(pin "10"
+			(uuid "b6859e7e-15ed-450e-becf-460bbd0fc683")
+		)
+		(pin "8"
+			(uuid "c7170786-04cc-44c4-9717-fb0ebb5d2310")
+		)
+		(pin "9"
+			(uuid "ff0586a3-98a2-4776-af18-ee066585eb51")
+		)
+		(pin "12"
+			(uuid "c822ce2e-850f-404b-9af6-08d477d28c74")
+		)
+		(pin "13"
+			(uuid "d7beb053-e526-4b87-be75-52c00fee4a2b")
+		)
+		(pin "14"
+			(uuid "4e3f0cc9-e6f5-44da-92bc-1a441c809263")
+		)
+		(pin "11"
+			(uuid "c5ca3952-37f1-42b0-afa5-f36e35709716")
+		)
+		(pin "4"
+			(uuid "43b4b816-b157-4682-8fc1-83d326d9f2a7")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3501")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09efc37-ab96-4318-8895-41e549b2f449")
+		(property "Reference" "C1514"
+			(at 99.949 166.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.949 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae5027d4-9bdd-4b97-ae87-b0d9769349cf")
+		)
+		(pin "2"
+			(uuid "79fa3eb6-c3fa-46dd-89d0-903b80ad85be")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3514")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea339424-6f32-486c-8fc3-a4e789a2dfb8")
+		(property "Reference" "R1507"
+			(at 66.04 50.6222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 66.04 52.9336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588931533490675712"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" "-55℃~+155℃ 25V 47kΩ 62.5mW Thin Film Resistor ±0.1% ±50ppm/℃ 0402"
+			(at 66.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358418"
+			(at 66.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e41207d0-6f28-4d33-9b8c-59c5e64a46cb")
+		)
+		(pin "2"
+			(uuid "2980517d-f346-4920-b5ec-b5f4fc5ec6d7")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R1507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R4507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R3507")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "R2507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 71.12 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed194048-a1cc-42b2-8b40-649319aeeb8b")
+		(property "Reference" "#PWR01516"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 71.247 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "341eb036-bdff-41dc-81b1-022c162f7ff9")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR01516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR04516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR03516")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 46.99 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eed67804-e1cc-4aa1-a74d-a7d199b9a9e9")
+		(property "Reference" "C1503"
+			(at 106.68 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30p"
+			(at 99.06 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 97.79 46.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707229178040320"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" " 30pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC "
+			(at 101.6 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
+			(at 101.6 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dffa09f6-0cb1-4762-a86b-3ee45e0bb4c1")
+		)
+		(pin "2"
+			(uuid "dafd8243-9e35-40ee-b1e4-9810d02d1daf")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3503")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MySynthParts:AS3364")
+		(at 233.68 111.76 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c54d95-5b3c-49b7-8a8c-68d835634816")
+		(property "Reference" "U1502"
+			(at 236.22 121.0818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3364"
+			(at 236.22 118.7704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3364.pdf"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9900006840"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1bb73a9-712b-46f0-8255-3a3c2f2b171b")
+		)
+		(pin "3"
+			(uuid "32855eca-4980-412d-872b-af403795e1bb")
+		)
+		(pin "4"
+			(uuid "452d9b4d-557b-408c-ab81-09f1e4da48d5")
+		)
+		(pin "5"
+			(uuid "6ff30746-0a87-48c7-9395-8925ba6133ff")
+		)
+		(pin "6"
+			(uuid "d15bc39d-775d-4790-ad51-75b092440f9e")
+		)
+		(pin "7"
+			(uuid "ddebb094-c799-41b2-a232-bd209f3d99c7")
+		)
+		(pin "10"
+			(uuid "0d005036-4045-44c3-b17b-70937ed8d325")
+		)
+		(pin "11"
+			(uuid "ff58ba25-d950-437e-b580-6d670d7d7c62")
+		)
+		(pin "12"
+			(uuid "a7099647-1772-4ddd-a991-26dd960b22b5")
+		)
+		(pin "13"
+			(uuid "e4253762-68ad-4165-9c3c-a01598e9dc5e")
+		)
+		(pin "14"
+			(uuid "6bf811fc-d205-4d74-aa50-e204cb313d8f")
+		)
+		(pin "15"
+			(uuid "e3c3c04c-1daf-4a99-8125-c8b25523f9f0")
+		)
+		(pin "1"
+			(uuid "f84a29e8-7efe-469d-b0a7-8469d7d10050")
+		)
+		(pin "16"
+			(uuid "aab2ca02-3a04-4ba6-a467-dbc672820363")
+		)
+		(pin "8"
+			(uuid "45a7d80d-85fb-4326-be68-1aad4e5c6925")
+		)
+		(pin "9"
+			(uuid "9bcb3dd1-dd0c-4d9a-b880-dea71650dedc")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U1502")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U4502")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U3502")
+					(unit 3)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "U2502")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d40a96-cda1-43b6-bccf-86ba1fde3255")
+		(property "Reference" "C1508"
+			(at 262.89 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30p"
+			(at 255.27 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254 101.9048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707229178040320"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" " 30pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC "
+			(at 257.81 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1570"
+			(at 257.81 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e52d4155-0bd3-4b9a-b44e-d4ca164485e3")
+		)
+		(pin "2"
+			(uuid "8769c852-605e-473b-8f61-93462242d4e8")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3508")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff147194-7985-4210-8e21-384deec1515a")
+		(property "Reference" "C1513"
+			(at 68.199 166.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5n"
+			(at 68.199 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 72.0852 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893956847644672"
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Desc" " 50V 5nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC "
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1625"
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84c3a09f-634c-408c-a681-1f9d1eb07a1e")
+		)
+		(pin "2"
+			(uuid "4d282d6c-64fc-4f7a-b7c2-b9e427258c79")
+		)
+		(instances
+			(project "vcatrix"
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/00000000-0000-0000-0000-00006198f6a6/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C1513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/4374cbb9-7872-4eb5-a169-f86f63928669/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C4513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/632ee4d7-9ec6-49e2-8e5b-72e7a4d7bee9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C3513")
+					(unit 1)
+				)
+				(path "/3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7/c295f0ed-414b-418a-addc-4387de9744d9/a73c124c-a182-434c-a9de-2483667ef0ce"
+					(reference "C2513")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
